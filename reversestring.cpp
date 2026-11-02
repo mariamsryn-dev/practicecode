@@ -6,7 +6,7 @@ int main() {
     cout << "Enter a word " << endl;
     cin >> word;
 
-    for (int i = word.length() - 1; i >= 0; i--) 
+    for (int i = word.length() - 1; i >= 0; i) 
     {
         cout << word[i];
 
